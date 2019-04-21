@@ -2,17 +2,19 @@
 
 Dentro do nosso tópico sobre design responsivo existe um outro conceito chamado Mobile First que determina que para um desenvolvimento mais escalável deveríamos primeiro escrever o nosso código para versões menores \(mobile, tablets\) e depois para maiores \(mobile\), ou seja, em ordem crescente.  
   
-Para facilitar melhor o entendimento como seria esse conceito na prática segue o exemplo de um código CSS:  
-  
-**`p {  
-     font-size: 1rem;  
-}  
-  
-@media (min-width: 768px) {  
-     p {  
-         font-size: 1.5rem;  
-      }  
-}`**
+Para facilitar melhor o entendimento como seria esse conceito na prática segue o exemplo de um código CSS:
+
+```text
+p {
+     font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+     p {
+         font-size: 1.5rem;
+      }
+}
+```
 
 No exemplo acima determinamos que a nossa tag &lt;p&gt; até a resolução 767px possuirá 1rem \(16px\) e a partir do 768px terá o tamanho 1.5rem \(24px\).    
   
