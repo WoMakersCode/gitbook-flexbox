@@ -83,6 +83,8 @@ header {
 
 Agora que incluímos o display flex para permitir que as propriedades do Flexbox sejam atribuídas vamos usar a propriedade justify-content: center para alinhar ao centro os elementos que forem surgindo no header. 
 
+{% code-tabs %}
+{% code-tabs-item title="styles.css" %}
 ```text
 header { 
   display: flex; 
@@ -91,6 +93,8 @@ header {
   max-width: 992px;
 }
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Adicionamos uma margin para obter um espaçamento entre o topo e a parte debaixo do header com o container e também um max-width \(largura máxima\) do nosso header de 992px.
 
@@ -108,6 +112,8 @@ Hoje em dia não é necessário mais preparar uma imagem redonda para incluir na
 
 Dentro do styles.css adicione esse seguinte trecho de código: 
 
+{% code-tabs %}
+{% code-tabs-item title="styles.css" %}
 ```text
 header .profile__photo { 
   margin: 20px;
@@ -118,6 +124,8 @@ header .profile__photo img {
   width: 100%;
 }
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 {% hint style="info" %}
 Mentorandas: perceba que estamos o caminho header .profile\_\_photo. Estamos fazendo isso para identificar que dentro do header há a classe .profile\_\_photo e nela vamos atribuir os estilos específicos para ela. Poderíamos colocar o .profile\_\_photo fora do header? Sim, mas e se tivermos alguma outra classe dentro o projeto com esse nome? O risco dela sobrescrever seria grande, pois impactaria todos que possuem essa mesma classe. Por isso estamos atribuindo dentro do header para ficar mais seguro. 
