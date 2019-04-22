@@ -2,9 +2,9 @@
 
 ### Objetivo do desafio
 
-O desafio tem o objetivo de ensiná-las a montar uma página pura em HTML e CSS posicionando os elementos lado a lado usando apenas o Flexbox.   
+O desafio tem o objetivo de ensinar as mentorandas a montar uma página responsiva em HTML e CSS usando apenas o Flexbox e conceitos do mobile first.   
   
-A demo da página é essa: [https://womakerscode.github.io/front-end-study-group-rj/demo-photogrid/](https://womakerscode.github.io/front-end-study-group-rj/demo-photogrid/)  
+Demo: [https://womakerscode.github.io/front-end-study-group-rj/demo-photogrid/](https://womakerscode.github.io/front-end-study-group-rj/demo-photogrid/)  
 Layout: [https://github.com/WoMakersCode/front-end-study-group-rj/raw/master/desafio-photogrid/flexboxphotogrid\_layout.jpg](https://github.com/WoMakersCode/front-end-study-group-rj/raw/master/desafio-photogrid/flexboxphotogrid_layout.jpg)
 
 ### Requerimentos necessários

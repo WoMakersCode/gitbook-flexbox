@@ -8,6 +8,8 @@ Com isso em mente vamos criar uma pasta chamada photogrid dentro do diretório D
   
 Com o arquivo aberto construa a sua estrutura inicial dessa seguinte forma: 
 
+{% code-tabs %}
+{% code-tabs-item title="index.html" %}
 ```text
 <!DOCTYPE html>
 <html lang="en">
@@ -30,6 +32,10 @@ Com o arquivo aberto construa a sua estrutura inicial dessa seguinte forma:
   </body>
 </html>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+Perceba que estamos usando a meta tag viewport para indicarmos que a nossa página será responsiva. Sem ela não será possível visualizar o conteúdo de forma adaptável em telas menores \(smartphones, tablets\).
 
 {% hint style="info" %}
 Mentoras: expliquem para as mentorandas o uso das principais tags caso sejam o primeiro contato delas com um código html para que elas comecem a se situar com o que está sendo feito. 
@@ -43,6 +49,8 @@ Para estruturamos eles precisamos pensar da seguinte forma: serão dois blocos d
   
 Então o HTML do nosso header ficará assim: 
 
+{% code-tabs %}
+{% code-tabs-item title="index.html" %}
 ```text
 <!-- Header --> 
 <header>
@@ -55,6 +63,8 @@ Então o HTML do nosso header ficará assim:
   </div>
 </header>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
  Temos duas classes: uma a gente deu o nome de profile\_\_photo e outra de about. 
 
@@ -73,6 +83,8 @@ Agora que o nosso header está definido vamos incluir os elementos do container 
   
 Seguindo a mesma lógica que usamos para criar os blocos de elementos no header vamos fazer para o nosso container. Pense devemos ter um bloco que englobe a imagem e a legenda, sabendo que este último item terá uma &lt;div&gt; englobando ele porque temos o ícone do coração + legenda da nossa imagem. Passando isso para o código seria assim: 
 
+{% code-tabs %}
+{% code-tabs-item title="index.html" %}
 ```text
 <!-- Container do Photo Grid --> 
 <div class="container">
@@ -88,6 +100,8 @@ Seguindo a mesma lógica que usamos para criar os blocos de elementos no header 
     </div>
 </div>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Vamos entender o código acima: dentro do container criamos uma div com o nome grid para definirmos o nosso flexbox no CSS e dentro dele contém uma outra div com nome item que é o que comentamos acima, esta classe é que englobará a imagem e legenda. Dentro dela possui a imagem do nosso Photo Grid e uma outra div chamada item\_\_details que onde se encontra a imagem do coração e a legenda. 
 
@@ -110,12 +124,16 @@ Mentorandas: estamos usando o Picsum que é um Lorem Ipsum de imagens para monta
 
 Depois do nosso container já estruturado agora é hora de finalizamos o nosso HTML incluindo uma tag &lt;p&gt; e colocando os créditos da página dentro da nossa tag &lt;footer&gt; :
 
+{% code-tabs %}
+{% code-tabs-item title="index.html" %}
 ```text
 <!-- Footer --> 
 <footer>
   <p>My Photo Grid desenvolvido por { coloque o seu nome aqui } | WoMakersCode RJ</p>
 </footer>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 {% hint style="info" %}
 Mentorandas: em { coloque o seu nome aqui } inclua o nome de vocês :\) 
