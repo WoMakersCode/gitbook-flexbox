@@ -127,11 +127,41 @@ header .profile__photo img {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+Dentro da classe .profile\_\_photo estamos atribuindo uma margin de 20px para dar um espaçamento no elemento e dentro de img estamos declarando que a largura terá 100% e o border-radius 50% fazendo com que a nossa imagem fique com a borda redonda. 
+
 {% hint style="info" %}
-Mentorandas: perceba que estamos o caminho header .profile\_\_photo. Estamos fazendo isso para identificar que dentro do header há a classe .profile\_\_photo e nela vamos atribuir os estilos específicos para ela. Poderíamos colocar o .profile\_\_photo fora do header? Sim, mas e se tivermos alguma outra classe dentro o projeto com esse nome? O risco dela sobrescrever seria grande, pois impactaria todos que possuem essa mesma classe. Por isso estamos atribuindo dentro do header para ficar mais seguro. 
+Mentorandas: perceba o caminho header .profile\_\_photo. Estamos fazendo isso para identificar que dentro do header há a classe .profile\_\_photo e nela vamos atribuir os estilos específicos para ela. Poderíamos colocar o .profile\_\_photo fora do header? Sim, mas e se tivermos alguma outra classe dentro o projeto com esse nome? O risco dela sobrescrever seria grande, pois impactaria todos que possuem essa mesma classe. Por isso estamos atribuindo dentro do header para ficar mais seguro. 
 {% endhint %}
 
-Dentro da classe .profile\_\_photo estamos atribuindo uma margin de 20px para dar um espaçamento no elemento e dentro de img estamos declarando que a largura terá 100% e o border-radius 50% fazendo com que a nossa imagem fique com a borda redonda. 
+### Adicionando espaçamento, cores e tamanho das fontes 
+
+Vamos customizar agora o nosso título e descrição. Para isso vamos adicionar as propriedades para a nossa classe .about. Assim: 
+
+{% code-tabs %}
+{% code-tabs-item title="styles.css" %}
+```text
+header .about { 
+  margin: 10px;
+} 
+
+header .about h1 {
+  font-size: 28px;
+}
+
+header .about p { 
+  font-size: 16px;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+Nos estilos acima só estamos definindo os tamanhos das fontes, mas você pode adicionar cores usando o color, adicionando linha horizontal com o text-decoration e muitas outras customizações. Aproveite para explorar um pouco do que as propriedades CSS para customização de texto pode te oferecer :\) 
+
+{% hint style="info" %}
+Mentoras: auxiliem as mentorandas mostrando como adicionar cores diferentes no texto, por exemplo. 
+{% endhint %}
+
+### Customizando o container
 
 
 
