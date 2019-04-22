@@ -27,6 +27,12 @@ git push -u origin master
 
 Com os comandos acima você irá criar o repositório a partir da linha de comando, subindo os arquivos que você criou na sua pasta local. 
 
+{% hint style="info" %}
+Mentoras: verifique se a máquina tem o Git instalado. Caso não, é necessário instalar: [https://git-scm.com/](https://git-scm.com/)   
+Caso não queira usar o Git no Windows vocês podem usar o Bash Shell que roda Unix \(tutorial em inglês\):   
+[https://itsfoss.com/install-bash-on-windows/](https://itsfoss.com/install-bash-on-windows/)
+{% endhint %}
+
 ### Subindo no Github Pages
 
 O Github Pages é uma ferramenta que o Github oferece para publicarmos os nossos projetos hospedados no Github de forma gratuita usando o domínio github.io. Por padrão a url é o nosso username.github.io/nome-do-repositório.  
