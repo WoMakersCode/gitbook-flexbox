@@ -1,6 +1,6 @@
 # Mobile First
 
-Dentro do nosso tópico sobre design responsivo existe um outro conceito chamado Mobile First que determina que para um desenvolvimento mais escalável deveríamos primeiro escrever o nosso código para versões menores \(mobile, tablets\) e depois para maiores \(mobile\), ou seja, em ordem crescente.  
+Dentro do nosso tópico sobre design responsivo existe um outro conceito chamado Mobile First que determina que para um desenvolvimento mais escalável deveríamos primeiro escrever o nosso código para versões menores \(mobile, tablets\) e depois para maiores \(desktop\), ou seja, em ordem crescente.  
   
 Para facilitar melhor o entendimento como seria esse conceito na prática segue o exemplo de um código CSS:
 

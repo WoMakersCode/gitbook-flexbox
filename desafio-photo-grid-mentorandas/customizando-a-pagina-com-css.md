@@ -261,7 +261,7 @@ Se olharmos o layout novamente vamos ver que ele possui uma sombra bem sutil e n
 {% code-tabs-item title="styles.css" %}
 ```css
 .item {
-  box-shadow: -2px 2px 10px 0px rgba(#444, 0.4); 
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, .4); 
   cursor: pointer;
   flex-direction: column; 
   padding: 15px;
