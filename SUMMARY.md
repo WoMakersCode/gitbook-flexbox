@@ -7,7 +7,6 @@
 * [Flexbox](flexbox.md)
 * [Desafio Photo Grid](desafio-photo-grid-mentorandas/README.md)
   * [Montando o nosso HTML](desafio-photo-grid-mentorandas/montando-o-nosso-html.md)
-  * [Customizando a página com CSS](desafio-photo-grid-mentorandas/customizando-a-pagina-com-css.md)
-  * [Adicionando media queries](desafio-photo-grid-mentorandas/adicionando-media-queries.md)
+  * [Adicionando estilos no CSS](desafio-photo-grid-mentorandas/customizando-a-pagina-com-css.md)
   * [Publicando no Github Pages](desafio-photo-grid-mentorandas/publicando-no-github-pages.md)
 
