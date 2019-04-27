@@ -260,12 +260,12 @@ Se olharmos o layout novamente vamos ver que ele possui uma sombra bem sutil e n
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
 ```css
-.item {
+.item { /* não precisamos o usar o display flex novamente aqui porque já declaramos na div pai (grid) */ 
   box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, .4); 
   cursor: pointer;
-  flex-direction: column; 
-  padding: 15px;
-  transition: transform 0.3s ease-in-out;  
+  flex-direction: column; /* usamos o flex-direction para determinar a estrutura do nosso elemento com flexbox, se ele será no formato row (linha) ou coluna (column) */
+  margin: 15px;  
+  transition: transform 0.3s ease-in-out; /* usamos o transition para criar uma animação quando ocorre o evento de mouseover na foto. O transform e o ease-in-out nos permite criar uma transição do hover mais suave e fluída */ 
 }
 
 .item:hover { 
