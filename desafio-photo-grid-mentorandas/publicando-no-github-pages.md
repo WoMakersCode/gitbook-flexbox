@@ -52,7 +52,9 @@ Mentoras: caso haja mais dúvidas e vocês precisam aprofundar mais nas pesquisa
 
 Neste tópico aprendemos a publicar a nossa página no Github Pages gratuitamente e também algumas noções de Git. 
 
-Ficamos muito felizes que tenha conseguido chegar até aqui. E caso não tenha chegado, está tudo bem e ficamos também felizes pelo seu esforço e dedicação em aprender algo do zero. Esperamos que você continue com os seus estudos e conte com a gente no que precisar.   
+Ficamos muito felizes que tenha conseguido chegar até aqui. E caso não tenha chegado, está tudo bem e ficamos também felizes pelo seu esforço e dedicação em aprender algo do zero. Esperamos que você continue com os seus estudos e conte com a gente no que precisar.     
+  
+Pedimos também que você avalie o nosso tutorial clicando em uma das carinhas no rodapé da página.   
   
 Participe do grupo do WoMakersCodeRJ no Telegram para acompanhar as novidades da grupo, agenda de eventos, tirar dúvidas, escrever alguma sugestão, crítica construtiva, vagas entre muitas coisas!   
 Para participar [clique aqui](https://t.me/WomakersCodeRJ). 
