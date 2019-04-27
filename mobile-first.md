@@ -4,7 +4,7 @@ Dentro do nosso tópico sobre design responsivo existe um outro conceito chamado
   
 Para facilitar melhor o entendimento como seria esse conceito na prática segue o exemplo de um código CSS:
 
-```text
+```css
 p {
      font-size: 1rem;
 }

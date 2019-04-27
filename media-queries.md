@@ -7,7 +7,7 @@ As medias types eram usadas para definir um CSS diferente para cada tipo de disp
 A media query é uma propriedade que determina uma condicional para cada tipo de dispositivo. Então dependendo de qual resolução você poderá incluir regras específicas para ele. Por exemplo: o elemento header possui um background-color cinza no desktop, mas no mobile a sua cor será branca. Assim:  
 
 
-```text
+```css
 header {
   background-color: white;
 }
@@ -22,7 +22,7 @@ Perceba que usamos a propriedade @media determinando que a partir da largura 768
   
 Para declarar as media queries costumamos usar apenas o @media\(\) onde dentro dos parênteses determinamos o valor mínimo ou máximo da resolução como condicional \(min-width e max-width, respectivamente\), mas podemos usar outras propriedades ou determinar o máximo e mínimo delas juntos. Assim:
 
-```text
+```css
 @media screen and (min-width: 768px and max-width: 1024px)
 ```
 

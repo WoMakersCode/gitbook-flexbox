@@ -12,7 +12,7 @@ A tag Viewport é responsável por nos permitir que o nosso site torne-se respon
   
 Para implementá-lo basta você incluído dentro da tag &lt;head&gt;. Assim:
 
-```text
+```markup
 <html>
    <head>
       <title>Meu site pessoal</title>

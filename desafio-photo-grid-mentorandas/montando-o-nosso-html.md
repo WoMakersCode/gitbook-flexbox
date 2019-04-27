@@ -10,7 +10,7 @@ Com o arquivo aberto construa a sua estrutura inicial dessa seguinte forma:
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
-```text
+```markup
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -51,7 +51,7 @@ Então o HTML do nosso header ficará assim:
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
-```text
+```markup
 <!-- Header --> 
 <header>
   <div class="profile__photo"> 
@@ -85,7 +85,7 @@ Seguindo a mesma lógica que usamos para criar os blocos de elementos no header 
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
-```text
+```markup
 <!-- Container do Photo Grid --> 
 <div class="container">
   <div class="grid">
@@ -126,7 +126,7 @@ Depois do nosso container já estruturado agora é hora de finalizamos o nosso H
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
-```text
+```markup
 <!-- Footer --> 
 <footer>
   <p>My Photo Grid desenvolvido por { coloque o seu nome aqui } | WoMakersCode RJ</p>

@@ -8,7 +8,7 @@ Dentro da nossa pasta photogrid vamos criar um arquivo chamado styles.css e incl
 
 {% code-tabs %}
 {% code-tabs-item title="index.html" %}
-```text
+```markup
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,7 +37,7 @@ Para chamarmos a fonte selecionada vamos usar a propriedade @import\(\) do CSS q
 
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
-```text
+```css
 @import url('https://fonts.googleapis.com/css?family=Arvo')
 ```
 {% endcode-tabs-item %}
@@ -47,7 +47,7 @@ Importado o nosso CSS vamos agora chamar essa fonte de forma global dentro do bo
 
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
-```text
+```css
 @import url('https://fonts.googleapis.com/css?family=Arvo'); 
 
 body {
@@ -73,7 +73,7 @@ Logo abaixo do body adicione o nome header e abra as chaves. Dentro dela vamos i
 
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
-```text
+```css
 header { 
   display: flex; 
 }
@@ -85,7 +85,7 @@ Agora que incluímos o display flex para permitir que as propriedades do Flexbox
 
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
-```text
+```css
 header { 
   display: flex; 
   justify-content: center;
@@ -114,7 +114,7 @@ Dentro do styles.css adicione esse seguinte trecho de código:
 
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
-```text
+```css
 header .profile__photo { 
   margin: 20px;
 } 
@@ -139,7 +139,7 @@ Vamos customizar agora o nosso título e descrição. Para isso vamos adicionar 
 
 {% code-tabs %}
 {% code-tabs-item title="styles.css" %}
-```text
+```css
 header .about { 
   margin: 10px;
 } 
@@ -162,6 +162,21 @@ Mentoras: auxiliem as mentorandas mostrando como adicionar cores diferentes no t
 {% endhint %}
 
 ### Customizando o container
+
+Agora que o nosso header está customizado vamos adicionar os estilos para o nosso container para que finalmente possamos fazer o nosso grid de fotos funcionar usando o Flexbox. 
+
+Dentro do styles.css vamos adicionar uma classe chamada .container onde vamos definir a largura da nossa página.   
+
+{% code-tabs %}
+{% code-tabs-item title="styles.css" %}
+```css
+.container { 
+  max-width: 992px; 
+  margin: 0 auto;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 
 
